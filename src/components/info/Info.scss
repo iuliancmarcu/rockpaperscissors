@@ -1,0 +1,38 @@
+.information {
+  h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .rules {
+    margin-bottom: 20px;
+
+    .rule {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      .rule-title {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .stats {
+    .stat {
+      .stat-name {
+        display: inline-block;
+        min-width: 120px;
+      }
+
+      .stat-value {
+        font-weight: bold;
+      }
+    }
+
+    .btn-clear-stats {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.playing-view {
+  .countdown {
+    margin: 0 auto;
+    
+    text-align: center;
+    font-size: 80px;
+
+    user-select: none;
+
+    .fade-out {
+      opacity: 1;
+      -webkit-animation: fade-out 1s infinite;
+      -moz-animation: fade-out 1s infinite;
+      -o-animation: fade-out 1s infinite;
+      animation: fade-out 1s infinite;
+    }
+  }
+
+  .options {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+
+    .description {
+      margin-bottom: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+
+  
+  @-webkit-keyframes fade-out {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  @-moz-keyframes fade-out {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  @-o-keyframes fade-out {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  @keyframes fade-out {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+}

@@ -1,0 +1,54 @@
+.app-root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+[class*="col-"] {
+  align-self: center;
+}
+
+.btn {
+  padding: 5px;
+  
+  outline: none;
+  cursor: pointer;
+  
+  font-size: 16px;
+  font-weight: bold;
+
+  background: rgba(0, 155, 0, 0.5);
+  color: white;
+  text-decoration: none;
+
+  border: 0;
+  border-radius: 5px;
+  border-bottom: 5px solid #33aa33;
+
+  &:hover {
+    background: rgba(0, 155, 0, 0.6);
+  }
+}
+
+.panel {
+  display: block;
+  padding: 15px;
+  background: white;
+  
+  border: 1px solid #eee;
+  border-radius: 5px;
+  
+  box-shadow: 0 1px 1px #aaa;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    margin-bottom: 15px;
+  }
+}
+
+.text-bold {
+  font-weight: bold;
+}

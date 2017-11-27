@@ -1,0 +1,9 @@
+.btn-option {
+  display: inline-block;
+  height: 40px;
+  margin: 0 5px 5px;
+
+  &.selected {
+    background: rgba(0, 155, 0, 0.75);
+  }
+}
